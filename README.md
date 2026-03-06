@@ -16,3 +16,5 @@ All in all, a fun and productive endeavor: a productivity app I actually use!
   - Fitness timers: breathing exercises, stretching, boxing rounds and archery practice
 - **Clear Visualization**: Every step of a circuit is displayed, highlighting the current one.
 - **Simple and Intuitive Controls**: Buttons for selecting preset, start and stop for easy control.
+
+<img width="1367" height="502" alt="imagen" src="https://github.com/user-attachments/assets/b5bd20ed-f148-42e0-8ce7-b1750eb81b14" />
