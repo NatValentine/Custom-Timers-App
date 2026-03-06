@@ -1,0 +1,25 @@
+{
+  "name": "custom-timers-app",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/NatValentine/Custom-Timers-App#readme",
+  "bugs": {
+    "url": "https://github.com/NatValentine/Custom-Timers-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatValentine/Custom-Timers-App.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx tsc -b && npx serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.9.3"
+  }
+}

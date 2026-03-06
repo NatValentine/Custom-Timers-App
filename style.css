@@ -1,0 +1,109 @@
+:root {
+    color-scheme: light;
+    --black: #222222;
+    --dark-gray: #555555;
+    --gray: #999999;
+    --white: #f5f7fa;
+    --blue: #0077ff;
+    --green: #00b755;
+    --yellow: #daaf38;
+    --red: #ca4754;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--white);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--black);
+}
+
+
+button {
+    margin-left: 1em;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--dark-gray);
+}
+
+button.active {
+    font-weight: bold;
+    border: 3px solid var(--yellow);
+}
+
+.hidden {
+    display: none;
+}
+
+#timer-display {
+    font-size: 48px;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 2em;
+}
+
+#presets-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.preset-item {
+    position: relative;
+    display: inline-block;
+}
+
+.preset-item button {
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+.step {
+    padding: 8px;
+    margin: 4px 0;
+    background: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+}
+
+.step.current {
+    background: var(--yellow);
+    border-color: var(--dark-gray);
+    font-weight: bold;
+}
+
+@keyframes timer-flash {
+    0% { background-color: var(--yellow); color: var(--black); }
+    50% { background-color: var(--red); color: var(--white); }
+    100% { background-color: transparent; color: var(--black); }
+}
+
+.timer-flash {
+    animation: timer-flash 0.5s ease-in-out;
+}
+
