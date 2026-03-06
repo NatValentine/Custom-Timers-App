@@ -1,9 +1,11 @@
 # ⏰ Custom Timers App
 
 I've wanted to make this app for a long time, and finally got around to it!
-This random-evening-after-work-project was a bit of a study in moving from vanilla JavaScript to TypeScript, while maintaining a clean and simple user interface with just HTML and CSS. With the added bonus of learning some basic CI/CD with GitHub Actions to automatically build and deploy the app to GitHub Pages on every push to the main branch.
-The result is a simple collection of customizable timers for various use cases, all running in the browser with no dependencies.
+
+This random-evening-after-work-project was a bit of a study in moving from vanilla JavaScript to TypeScript, while maintaining a clean and simple user interface with just HTML and CSS. With the added bonus of learning some basic CI/CD with GitHub Actions to automatically build and deploy the app to GitHub Pages on every push to the main branch. The result is a simple collection of customizable timers for various use cases, all running in the browser with no dependencies.
+
 All in all, a fun and productive endeavor: a productivity app I actually use!
+
 
 ## Features
 
